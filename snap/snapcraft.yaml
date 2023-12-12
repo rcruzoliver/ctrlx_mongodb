@@ -1,6 +1,6 @@
 name: ctrlx-mongodb
 version: "2.2.0"
-base: core22
+grade: stable
 summary: MongoDB document-oriented database for ctrlX OS.
 description: |  
     MongoDB is a high-performance, open source, schema-free
@@ -17,15 +17,20 @@ description: |
 
     High performance, scalability, and reasonable depth of functionality
     are the goals for the project.
-
+base: core22
 confinement: strict
+# architectures:
+   # - build-on: [amd64]
+   #  build-for: [arm64]  ### <------ CHANGE IF NEEDED
 
 apps: 
     ctrlx-mongodb:
         command: bin/run.sh 
-        # daemon: simple
         plugs: [network, network-bind, mount-observe, network-observe, system-observe, active-solution]
-        # restart-condition: on-failure       
+        daemon: simple
+        passthrough:
+          restart-condition: always
+          restart-delay: 10s   
 
 parts:
     mongodb:
