@@ -139,7 +139,7 @@ sudo docker run --platform linux/amd64 -p 27017:27017 --name <CONTAINER_NAME> mo
 sudo docker exec -it <CONTAINER_NAME> mongo
 ```
 
-Then you need to pack the this docker image in a snap to install it in the ctrlX OS. Then, cross-your fings and hope the [ctrlX Container Engine](https://developer.community.boschrexroth.com/t5/Store-and-How-to/ctrlX-AUTOMATION-Container-Engine/ba-p/57324) suports this image, you can also find a template to pack your DockerImage in a snap. I am not sue how the ctrlX Container Engine will behave with qemu. 
+Then you need to pack the this docker image in a snap to install it in the ctrlX OS. Then, cross-your fings and hope the [ctrlX Container Engine](https://developer.community.boschrexroth.com/t5/Store-and-How-to/ctrlX-AUTOMATION-Container-Engine/ba-p/57324) suports this image, you can also find a template to pack your DockerImage in a snap. I am not sue how the ctrlX Container Engine will behave with qemu. If you manage to make it work, please email me in raul.cruz.oliver@gmail.com
 
 And on top of all of that, it is still Mongo DB 4.4. with way less functionalities, and not granted performance with Mongo DB Compass.
 
