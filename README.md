@@ -6,13 +6,12 @@ This respository contains the source code and build instructions to generate the
 
 This repository is based in the [official mongodb36-configurable-snap repository](https://github.com/mauringo/mongodb36-configurable-snap) and it has been initially modified following the indications from Mauro Riboni in [SDK - Empower your app with Data Persistence](https://developer.community.boschrexroth.com/t5/Store-and-How-to/SDK-Empower-your-app-with-Data-Persistence/ba-p/69121). It has been then further adapted by Raul Cruz-Oliver to target ubuntu 22, including all the neccesary dependencies. 
 
-## Development details
-Office: Bosch Rexroth Schweiz \
+## Author details
+<mark>**DISCLAIMER: This is not an official Bosch Rexroth development. This is only a demo example, use at your own risk. There is no support.**</mark> 
+
 Author: Raul Cruz-Oliver \
 Main contact email: raul.cruz.oliver@gmail.com \
-Alternative contact email: stefan.luna@boschrexroth.ch \
 Date: November 2023 \
-Place: Buttikon Schwyz, Switzerland \
 License: MIT
 
 ## System overview
