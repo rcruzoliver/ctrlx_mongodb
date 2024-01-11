@@ -15,7 +15,7 @@ Date: November 2023 \
 License: MIT
 
 ## System overview
-Please visit [Mongo DB in ctrlX CORE OS](https://developer.community.boschrexroth.com/t5/forums/editpage/board-id/dcdev_community-dev-blog/message-id/969), where the functionalities of this app are explained in detail. Likewise, the already created snap can be downloaded there.
+Please visit [Mongo DB in ctrlX CORE OS](https://developer.community.boschrexroth.com/t5/forums/editpage/board-id/dcdev_community-dev-blog/message-id/969), where the functionalities of this app are explained in detail. 
 
 The mongo DB runtime is packed in a snap and installed in the CORE, the user can configure where the data will be stored, for example in a external media like the an SD Card. Moreover, via a TCP/IP communication the mongo DB daemon in the ctrlX OS can connect to mongo DB Compass (GUI Deskop client application) in a engineering PC to easily visualize and export the data base.
 
