@@ -19,14 +19,11 @@ description: |
     are the goals for the project.
 base: core22
 confinement: strict
-# architectures:
-   # - build-on: [amd64]
-   #  build-for: [arm64]  ### <------ CHANGE IF NEEDED
 
 apps: 
     ctrlx-mongodb:
         command: bin/run.sh 
-        plugs: [network, network-bind, mount-observe, network-observe, system-observe, active-solution]
+        plugs: [network, network-bind, mount-observe, network-observe, system-observe, active-solution, removable-media]
         daemon: simple
         passthrough:
           restart-condition: always
